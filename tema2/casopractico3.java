@@ -1,5 +1,6 @@
 package tema2;
 
+
 public class casopractico3 {
     public class Main {
 
