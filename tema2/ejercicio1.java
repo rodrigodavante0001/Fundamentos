@@ -1,12 +1,14 @@
-public class ejercicio1.java {
-public static void main(String[] args) {
+package tema2;
+public class ejercicio1 {
+    public static void main(String[] args) {
 
-int num1 = 10;
-int num2 = 5;
+int a = 7;
+int b = 4;
 
-System.out.println(num1 + num2);
-System.out.println(num1 - num2);
-System.out.println(num1 * num2);
-System.out.println(num1 / num2);
+System.out.println(a + b);   
+System.out.println(a - b);   
+System.out.println(a * b);   
+System.out.println(a / b);  
+
     }
 }
