@@ -8,6 +8,6 @@ double nota3 = 9;
 
 double media = (nota1 + nota2 + nota3) / 3;
 
-System.out.println(media);
+System.out.println("La media es: " + media);
     }
 }

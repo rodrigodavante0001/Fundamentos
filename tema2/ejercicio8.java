@@ -7,7 +7,7 @@ char b = 'A';
 char c = 'V';
 char d = 'A';
 
-System.out.println("" + a + b + c + d);
+System.out.println("Todo junto da la palabra " + a + b + c + d);
     }
 
 }
