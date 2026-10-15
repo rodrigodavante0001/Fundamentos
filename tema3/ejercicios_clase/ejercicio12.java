@@ -3,7 +3,6 @@ package ejercicios_clase;
     import java.util.Scanner;
 
 public class ejercicio12 {
-
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
@@ -13,9 +12,9 @@ public class ejercicio12 {
         System.out.print("Precio: ");
         double precio = sc.nextDouble();
 
-        double precioFinal = precio * (1 - DESCUENTO);
+        double PrecioFinal = precio * (1 - DESCUENTO);
 
-        System.out.println("Precio final: " + precioFinal + " euros");
+        System.out.println("Precio final: " + PrecioFinal + " euros");
         sc.close();
     }
 

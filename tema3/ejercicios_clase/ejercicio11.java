@@ -10,12 +10,12 @@ public class ejercicio11 {
 
         final double PI = 3.14159;
 
-        System.out.print("Radio: ");
+        System.out.print("El radio es: ");
         double radio = sc.nextDouble();
 
-        double area = PI * radio * radio;
+        double area = PI * (radio * radio);
 
-        System.out.println("Área: " + area);
+        System.out.println("El área es: " + area);
         sc.close();
     }
 }

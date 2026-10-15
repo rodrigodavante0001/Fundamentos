@@ -8,12 +8,12 @@ public class ejercicio13 {
 
         Scanner sc = new Scanner(System.in);
 
-        final double CAMBIO = 1.10;
+        final double Cambio = 1.10;
 
         System.out.print("Euros: ");
         double euros = sc.nextDouble();
 
-        double dolares = euros * CAMBIO;
+        double dolares = euros * Cambio;
 
         System.out.println("Dólares: " + dolares);
         sc.close();
