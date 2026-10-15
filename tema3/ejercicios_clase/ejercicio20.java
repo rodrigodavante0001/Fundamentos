@@ -13,5 +13,7 @@ public class ejercicio20 {
         char letra = sc.next().charAt(0);
 
         System.out.println("La letra es: " + letra);
+        sc.close();
     }
+    
 }

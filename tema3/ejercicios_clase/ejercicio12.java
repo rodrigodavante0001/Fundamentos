@@ -16,5 +16,7 @@ public class ejercicio12 {
         double precioFinal = precio * (1 - DESCUENTO);
 
         System.out.println("Precio final: " + precioFinal + " euros");
+        sc.close();
     }
+
 }

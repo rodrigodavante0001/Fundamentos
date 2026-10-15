@@ -16,5 +16,6 @@ public class ejercicio11 {
         double area = PI * radio * radio;
 
         System.out.println("Área: " + area);
+        sc.close();
     }
 }

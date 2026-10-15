@@ -7,7 +7,8 @@ public class nombre {
         System.out.println("Dime tu nombre");
         String nombre = sc.nextLine();
         System.out.println("Hola " + nombre);
+        sc.close();
     }
-  
+
 
 }

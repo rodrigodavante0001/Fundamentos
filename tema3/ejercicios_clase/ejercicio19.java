@@ -20,5 +20,6 @@ public class ejercicio19 {
         double media = (nota1 + nota2 + nota3) / 3;
 
         System.out.println("Media: " + media);
+        sc.close();
     }
 }

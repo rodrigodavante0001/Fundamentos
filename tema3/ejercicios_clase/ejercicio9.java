@@ -1,9 +1,8 @@
 package ejercicios_clase;
     
-import java.util.Scanner;
+    import java.util.Scanner;
 
 public class ejercicio9 {
-
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);

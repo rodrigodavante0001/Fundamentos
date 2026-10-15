@@ -6,15 +6,15 @@ package ejercicios_clase;
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Base: ");
-        double base = sc.nextDouble();
+        System.out.print("Dime la base: ");
+        int base = sc.nextInt();
 
-        System.out.print("Altura: ");
-        double altura = sc.nextDouble();
+        System.out.print("Dime la altura: ");
+        int altura = sc.nextInt();
 
-        double area = base * altura;
+        int area = base * altura;
 
-        System.out.println("Área: " + area);
+        System.out.println("El área es : " + area);
         sc.close();
     }
 

@@ -16,6 +16,6 @@ public class nombreedad {
     System.out.println("Hola, " + nombre + " tiene " + edad);
 
     System.out.println("Tu inicial es: " + inicial);
-
+    sc.close();
     }
 }

@@ -6,7 +6,7 @@ public class ejercicio14 {
 
         final double IVA = 0.21;
 
-        System.out.println(IVA);
+        System.out.println("El valor del iva es: " + IVA);
        
     }
 }
