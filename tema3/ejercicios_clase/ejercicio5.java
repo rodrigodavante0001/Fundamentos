@@ -1,5 +1,7 @@
-import java.util.Scanner;
-public class ejercicio5 {
+package ejercicios_clase;
+    import java.util.Scanner;
+
+    public class ejercicio5 {
      public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
@@ -13,6 +15,7 @@ public class ejercicio5 {
         double area = base * altura;
 
         System.out.println("Área: " + area);
+        sc.close();
     }
 
 }

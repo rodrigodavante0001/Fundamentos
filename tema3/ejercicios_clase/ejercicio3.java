@@ -1,5 +1,7 @@
+package ejercicios_clase;
     import java.util.Scanner;
-public class ejercicio3 {
+
+    public class ejercicio3 {
     
     public static void main(String[] args) {
 
@@ -14,6 +16,7 @@ public class ejercicio3 {
         int suma = num1 + num2;
 
         System.out.println("La suma es: " + suma);
+        sc.close();
     }
 
 }

@@ -10,7 +10,9 @@ public class ejercicio1 {
         System.out.print("Introduce tu nombre: ");
         String nombre = sc.nextLine();
 
-        System.out.println("Tu nombre es: " + nombre);
+        System.out.println("Tu nombre es: " + nombre);  
+        sc.close();
     }
+
 
 }

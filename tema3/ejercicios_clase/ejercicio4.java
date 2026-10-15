@@ -1,5 +1,7 @@
+package ejercicios_clase;
     import java.util.Scanner;
-public class ejercicio4 {
+
+    public class ejercicio4 {
 
     public static void main(String[] args) {
 
@@ -15,6 +17,7 @@ public class ejercicio4 {
         System.out.println("Resta: " + (num1 - num2));
         System.out.println("Multiplicación: " + (num1 * num2));
         System.out.println("División: " + (num1 / num2));
+        sc.close();
     }
 
 }

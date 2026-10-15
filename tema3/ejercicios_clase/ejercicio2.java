@@ -1,6 +1,6 @@
 package ejercicios_clase;
 
-import java.util.Scanner;
+    import java.util.Scanner;
 
 public class ejercicio2 {
     public static void main(String[] args) {
@@ -11,6 +11,9 @@ public class ejercicio2 {
         int numero = sc.nextInt();
 
         System.out.println("Has introducido: " + numero);
+        sc.close();
+   
     }
+
 
 }
