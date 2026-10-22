@@ -8,7 +8,7 @@ public class ejercicio4 {
     Scanner sc = new Scanner(System.in);
     System.out.print("Letra: ");
     char letra = sc.nextLine().charAt(0);
-    System.out.println((int) letra);            
+    System.out.println("Codigo: " + (int) letra);            
     System.out.println((char) (letra + 1));     
     sc.close();
     }
