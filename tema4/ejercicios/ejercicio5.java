@@ -7,16 +7,16 @@ public class ejercicio5 {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Primer número: ");
-        String text1 = sc.nextLine();
+        String num1 = sc.nextLine();
         System.out.print("Segundo número: ");
-        String text2 = sc.nextLine();
+        String num2 = sc.nextLine();
 
         
-        int suma = Integer.parseInt(text1) + Integer.parseInt(text2);
-        System.out.println("Suma convirtiendo: " + suma);
+        int suma = Integer.parseInt(num1) + Integer.parseInt(num2);
+        System.out.println("Suma: " + suma);
 
         
-        System.out.println("Sin convertir: " + (text1 + text2));
+        System.out.println("Sin convertir: " + (num1 + num2));
         sc.close();
     }
 }

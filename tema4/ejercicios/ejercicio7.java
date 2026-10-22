@@ -11,7 +11,6 @@ public class ejercicio7 {
         boolean puedeSacarselo = edad >= 18 && aprobadoTeorico;
 
         System.out.println("Edad: " + edad);
-        System.out.println("Aprobado el teórico: " + aprobadoTeorico);
         System.out.println("¿Puede sacarse el carnet? " + puedeSacarselo);
     }
 }
