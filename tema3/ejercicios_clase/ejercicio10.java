@@ -11,9 +11,9 @@ public class ejercicio10 {
         final double IVA = 0.21;
 
         System.out.print("Base imponible: ");
-        double base = sc.nextDouble();
+        double baseImponible = sc.nextDouble();
 
-        double total = base * (1 + IVA);
+        double total = baseImponible * (1 + IVA);
 
         System.out.println("Total factura: " + total + " euros");
         sc.close();
