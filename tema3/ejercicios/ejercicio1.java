@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 public class ejercicio1 {
@@ -7,7 +8,9 @@ public class ejercicio1 {
         System.out.println("Dime tu nombre");
         String nombre = sc.nextLine();
         System.out.println("Hola " + nombre);
+        sc.close();
     }
+
   
 
 }
