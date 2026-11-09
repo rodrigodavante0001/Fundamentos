@@ -11,7 +11,7 @@ public class ejercicio4 {
         double importe = sc.nextDouble();
 
         if (importe > 100) {
-            double total = importe - importe * DESCUENTO;
+            double total = importe * (1 - DESCUENTO);
             System.out.println("Total a pagar: " + total + " euros");
         } else {
             System.out.println("Total a pagar: " + importe + " euros");
