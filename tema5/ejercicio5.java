@@ -7,9 +7,9 @@ public class ejercicio5 {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Contraseña: ");
-        String clave = sc.next();
+        String contraseña = sc.next();
 
-        if (clave.equals("java123")) {
+        if (contraseña.equals("java123")) {
             System.out.println("Acceso concedido");
         } else {
             System.out.println("Acceso denegado");
