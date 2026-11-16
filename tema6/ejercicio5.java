@@ -8,14 +8,12 @@ public class ejercicio5 {
         System.out.print("Introduce tu edad: ");
         int edad = sc.nextInt();
 
-        if (edad < 4) {
+        if (edad < 4 | edad > 64) {
             System.out.println("Gratis");
         } else if (edad <= 12) {
             System.out.println("Precio: 0.50 euros");
         } else if (edad <= 64) {
             System.out.println("Precio: 1.20 euros");
-        } else {
-            System.out.println("Gratis");
         }
         sc.close();
     }

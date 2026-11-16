@@ -23,7 +23,7 @@ public static void main(String[] args) {
             descuento = descuento + 2;
         }
 
-        System.out.println("Descuento total: " + descuento + "%");
+        System.out.println("Descuento total: " + descuento + " %");
         sc.close();
     }
     
