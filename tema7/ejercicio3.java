@@ -6,7 +6,7 @@ public class ejercicio3 {
     public static void main(String[] args) {
       Scanner sc = new Scanner(System.in);
 
-        System.out.print("1) Café 1,20 euros  2) Té 1,00 euro  3) Zumo 2,00 euros ; ");
+        System.out.print("1) Café 1,20 euros ; 2) Té 1,00 euro ; 3) Zumo 2,00 euros | Elige una opción: ");
         System.out.print("Opción: ");
         int opcion = sc.nextInt();
 
